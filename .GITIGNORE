@@ -1,0 +1,48 @@
+# ─── SECRETS — NEVER COMMIT THESE ────────────────────────────
+.env
+.env.local
+.env.production
+.env.*
+!.env.example
+
+# ─── NODE ─────────────────────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# ─── BOT STATE FILES (saved locally during dev) ───────────────
+state.json
+history.json
+positions.json
+shared-intelligence.json
+*.state.json
+
+# ─── LOGS ─────────────────────────────────────────────────────
+logs/
+*.log
+*.log.*
+
+# ─── OS FILES ─────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── EDITORS ──────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ─── RAILWAY ──────────────────────────────────────────────────
+.railway/
+
+# ─── MISC ─────────────────────────────────────────────────────
+*.bak
+*.tmp
+.cache/
+dist/
+build/
